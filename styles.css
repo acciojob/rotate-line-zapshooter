@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+#line {
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transform-origin: center center;
+}
